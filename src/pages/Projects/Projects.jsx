@@ -1,6 +1,10 @@
 import React from "react";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
+import projectImage1 from '../../utils/data/project1.jpeg';
+import projectImage2 from '../../utils/data/project2.png';
+import projectImage3 from '../../utils/data/project3.png';
+
 const Projects = () => {
   return (
     <>
@@ -20,7 +24,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Full Stack</span>
                   <img
-                    src="../../public/project2.png"
+                    src={projectImage1}
                     alt="project1"
                   />
                 </div>
@@ -48,26 +52,27 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Backend</span>
+                  <span className="card-notify-badge">Big-Data Visualization</span>
                   <img
-                    src="../../public/project1.jpeg"
+                    src={projectImage2}
                     alt="project2"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node Js</span>
+                <span className="card-detail-badge">Python</span>
+                  <span className="card-detail-badge">Dash</span>
                   
-                  <span className="card-detail-badge">MongoDB</span>
+                  <span className="card-detail-badge">Plotly</span>
 
-                  <span className="card-detail-badge">Express</span>
+                 
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Youtube clone</h5>
+                    <h5 className="text-uppercase">IPL-Data-Visualization</h5>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/padariya-tech/Youtube-clone/tree/main"
+                    href="https://github.com/padariya-tech/IPL-Data-Visualization"
                   >
                     View
                   </a>
@@ -77,24 +82,23 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">javascript</span>
+                  <span className="card-notify-badge">Machine Learning / Natural Language Processing</span>
                   <img
-                    src="../../public/project3.png"
-                    alt="project1"
+                    src={projectImage3}
+                    alt="project3"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">HTML</span>
-                  <span className="card-detail-badge">Css</span>
-
-                  <span className="card-detail-badge">JavaScript</span>
-                  <span className="card-detail-badge">Api</span>
+                  {/* <span className="card-detail-badge">Machine Learning</span> */}
+                  <span className="card-detail-badge">Deep Learning</span>
+                  <span className="card-detail-badge">Fine Tunning</span>
+                  {/* <span className="card-detail-badge">Model</span> */}
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Java Script Projects</h5>
+                    <h5 className="text-uppercase">Text-Summarization</h5>
                   </div>
-                  <a className="ad-btn" href="https://github.com/padariya-tech/javascript-Projects">
+                  <a className="ad-btn" href="https://github.com/padariya-tech/Text-Summarization-on-Indian-Language">
                     View
                   </a>
                 </div>

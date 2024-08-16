@@ -6,29 +6,28 @@ import {
   SiReact,
   SiTailwindcss,
   SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
+  
   SiMongodb,
   SiMysql,
+  SiJavascript,
  
   SiGithub,
   SiWordpress,
-  SiFirebase,
-  SiDocker,
+  
   SiExpress,
-  SiNginx,
+ 
   SiPostman,
 
 } from "react-icons/si";
 export const TechstackList = [
   {
     _id: 1,
-    name: "HTML",
+    name: "HTML ",
     icon: BsFiletypeHtml,
   },
   {
     _id: 2,
-    name: "CSS / SCSS",
+    name: "CSS ",
     icon: BsFiletypeCss,
   },
  
@@ -55,8 +54,8 @@ export const TechstackList = [
   },
   {
     _id: 17,
-    name: "Wordpress ",
-    icon: SiWordpress,
+    name: "React JS ",
+    icon: SiReact,
   },
   {
     _id: 18,
@@ -75,17 +74,17 @@ export const TechstackList = [
   },
   {
     _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Java",
-    icon: FaJava,
+    name: "Java Script ",
+    icon: SiJavascript,
   },
   {
     _id: 24,
-    name: "Postman",
+    name: "Java ",
+    icon: FaJava,
+  },
+  {
+    _id: 23,
+    name: "Postman ",
     icon: SiPostman,
   },
   

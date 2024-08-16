@@ -2,7 +2,7 @@ import React from 'react'
 import {useTheme} from '../../context/ThemeContex.jsx'
 import './home.css'
 import TypeWriter from 'typewriter-effect'
-import Resume from '../../../public/Nij_Padariya_Resume.pdf'
+import Resume from '../../utils/data/Nij_Padariya_Resume.pdf'
 import {BsFillMoonStarsFill,BsFillSunFill} from 'react-icons/bs'
 import Fade from 'react-reveal/Fade'
 function Home() {
