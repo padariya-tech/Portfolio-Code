@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import Spin from "react-reveal/Spin";
+ 
 import projectImage1 from '../../utils/data/project1.png';
 import projectImage2 from '../../utils/data/project2.png';
 import projectImage3 from '../../utils/data/project3.png';
@@ -18,7 +18,7 @@ const Projects = () => {
         </p>
         {/* card design */}
         <div className="row" id="ads">
-          <Spin>
+          
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -104,7 +104,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </Spin>
+          
         </div>
       </div>
     </>
