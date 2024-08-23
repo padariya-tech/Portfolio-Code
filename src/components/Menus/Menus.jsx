@@ -2,8 +2,8 @@ import React from 'react'
 import './Menus.css'
 import {FcAbout, FcBiotech, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector} from 'react-icons/fc'
 import {Link } from 'react-scroll'
-import  Zoom from 'react-reveal/Zoom'
-import  Fade from 'react-reveal/Fade'
+
+
 import profile_pic from "../../utils/data/profile2.jpg";
 
 function Menus({toggle}) {
@@ -13,12 +13,11 @@ function Menus({toggle}) {
     
         { toggle ? ( 
             <>
-            <Zoom>
+            
             <div className="navbar-profile-pic">
             <img  src={profile_pic} alt="profile pic" /> 
-        </div></Zoom>
-
-        <Fade left>
+        </div>
+        
         <div className="nav-items">
            
 
@@ -55,11 +54,11 @@ function Menus({toggle}) {
             </div>
          
         </div>
-        </Fade>
+        
             </>
         ) : (
            <>
-           <Fade left>
+           
            <div className="nav-items">
            
 
@@ -97,7 +96,7 @@ function Menus({toggle}) {
           
         
        </div>
-       </Fade>
+      
            </>
 
     )}

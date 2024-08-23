@@ -1,7 +1,7 @@
 import React from "react";
 import "./Techstack.css";
 import { TechstackList } from "../../utils/Tcl.jsx";
-import RubberBand from 'react-reveal/RubberBand';
+
 const Techstack = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const Techstack = () => {
             👉 including programming Languages, frameworks, databses, front-end
             and back-end tools, and APIs
           </p>
-        <RubberBand>
+        
         <div className="row d-flex justify-content-center">
           {TechstackList.map((tech) => (
             
@@ -38,7 +38,7 @@ const Techstack = () => {
             
           ))}
         </div>
-        </RubberBand>
+       
       </div>
     </>
   );
