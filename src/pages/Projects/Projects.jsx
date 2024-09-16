@@ -36,9 +36,9 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">
+                    <h5 className="text-uppercase">
                       E-Learning Platform Website
-                    </h6>
+                    </h5>
                   </div>
                   <a
                     className="ad-btn"
