@@ -37,12 +37,12 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      PortFolio Website
+                      E-Learning Platform Website
                     </h6>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/padariya-tech/Portfolio"
+                    href="https://github.com/Anshul-purohit/Learn-With-Sensei"
                   >
                     View
                   </a>
